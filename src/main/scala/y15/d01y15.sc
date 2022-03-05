@@ -1,7 +1,7 @@
 import tools.Tools.fileLines
 
-val sample = fileLines("y15/sample.txt")
-val problem = fileLines("y15/problem.txt")
+val sample = fileLines("y15/d01y15.sam")
+val problem = fileLines("y15/d01y15.prb")
 
 def star(steps: Array[Char], start: Int): Array[(Int,Int)] = {
   steps.scanLeft(start)((acc, c) => {
